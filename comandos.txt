@@ -1,0 +1,72 @@
+yarn init -y
+
+yarn add express
+
+yarn add nodemon sucrase -D
+
+yarn add cors
+
+cria a pasta src
+
+acessa a pasta e cria o
+app.js
+router.js
+server.js
+
+cria o arquivo nodemon.json
+depois coloca no packege.json
+
+yarn dev
+
+--- configura o eslint- prettie ...
+
+yarn add eslint -D
+
+yarn eslint --init
+
+deleta o arquivo packege-lock.json
+
+dar um yarn na pasta
+
+depois configurar as regras
+
+.eslint.js
+
+depois botao direito egenereta editorconfig
+
+instalar o prettier
+yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+cria o arquivo .prettierrc para nao dar conclito com o eslint
+
+yarn eslint --fix src --ext .js
+
+
+para o banco user o orm sequelize
+
+yarn add sequelize
+yarn add sequelize-cli -D
+yarn add pg pg-hstore
+
+criar a migration
+yarn sequelize migration:create --name=create-users
+
+yarn sequelize migration:create --name=create-tasks
+
+
+rodar a migration
+yarn sequelize db:migrate
+
+desfazer ela
+yarn sequelize db:migrate:undo
+
+yarn sequelize db:migrate:undo:all
+
+criando um hash
+yarn add bcrypt js
+
+JWT
+yarn add jsonwebtoken
+
+site md5online
+
+yarn add yup
